@@ -1,10 +1,20 @@
-body{
-	--base-size: 12px;
-	--gutter-size: calc(3 * var(--base-size));
+:root{
+	--base-size: 16px;
+	--gutter-size: var(--base-size);
 
 	--color--primary: black;
 	--color--secondary: gold;
 	--color--background: tomato;
+
+	font-size: var(--base-size);
+}
+
+
+@media screen and (min-width: 600px){
+	:root{
+		--base-size: 20px;
+		--gutter-size: calc(3*var(--base-size));
+	}
 }
 
 header{
@@ -12,7 +22,15 @@ header{
 	padding-block: calc(5 * var(--base-size));
 }
 
+#main-content{
+	block-size: 75vh;
+	padding-top: var(--base-size);
+	padding-bottom: calc(2*var(--base-size));
+}
+
 footer{
+	--base-size: 48px;
+
 	background-color: var(--color--secondary);
 	padding-top: var(--base-size);
 	padding-bottom: calc(5 * var(--base-size));
