@@ -1,41 +1,28 @@
 :root{
-	--base-size: 16px;
-	--gutter-size: var(--base-size);
+	--font-family: Arial, Helvetica, sans-serif;
+	--base-font-size: 16px;
 
 	--color--primary: black;
 	--color--secondary: red;
-	--color--background: gold;
-
-	font-size: var(--base-size);
 }
 
-
-@media screen and (min-width: 600px){
-	:root{
-		--base-size: 20px;
-		--gutter-size: calc(3*var(--base-size));
-	}
+body{
+	font-family: var(--font-family);
+	font-size: 16px;
 }
 
 header{
-	background-color: var(--color--background);
-	padding-block: calc(5 * var(--base-size));
+	font-size: 18px;
+	border-bottom: solid 1px black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-#main-content{
-	block-size: 75vh;
-	padding-top: var(--base-size);
-	padding-bottom: calc(2*var(--base-size));
+h1{
+	margin: 18px;
 }
 
-footer{
-	--base-size: 48px;
-
-	background-color: var(--color--secondary);
-	padding-top: var(--base-size);
-	padding-bottom: calc(5 * var(--base-size));
-}
-
-.gutters{
-	padding-inline: var(--gutter-size);
+header p{
+	margin: 18px;
 }
