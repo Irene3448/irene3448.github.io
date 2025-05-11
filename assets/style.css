@@ -11,6 +11,7 @@
 body{
 	font-family: var(--font-family);
 	font-size: 16px;
+	background-color: #f9f9f9;
 }
 
 /*header part*/
@@ -44,6 +45,18 @@ section ul {
 	grid-template-columns: 1fr;
 	padding: 0;
 	list-style: none;
+}
+
+section ul li:hover {
+	transform: translateY(-8px);
+}
+
+section ul li {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover p, .number:hover {
+	font-weight: 550;
 }
 
 h2{
