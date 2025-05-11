@@ -35,16 +35,13 @@ h1{
 	padding-bottom: 18px;
 }
 
-li a{
+li p{
+	font-size: 30px;
 	display: flex;
 	gap: 5px;
 	align-items: flex-start;
 	border-top: solid 1px black;
-}
-
-li p{
-	font-size: 30px;
-	margin-block: 20px;
+	padding-block: 20px;
 }
 
 .number{
