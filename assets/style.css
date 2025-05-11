@@ -1,7 +1,7 @@
 :root{
 	--font-family: arial;
 	--base-font-size: 16px;
-	--m-margin-size: 20px;
+	--m-margin-size: 18px;
 	--big-margin-size: 80px;
 
 	--color--primary: black;
@@ -11,6 +11,7 @@
 body{
 	font-family: var(--font-family);
 	font-size: 16px;
+	font-weight: lighter;
 	background-color: #f9f9f9;
 }
 
@@ -55,16 +56,12 @@ section ul li {
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-li:hover p, .number:hover {
-	font-weight: 550;
-}
-
 h2{
 	font-size: var(--base-font-size);
 	margin-top: 60px;
 	padding-bottom: var(--m-margin-size);
 	margin-bottom: 10px;
-	line-height: 20px;
+	line-height: 22px;
 }
 
 li p{
