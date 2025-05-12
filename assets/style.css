@@ -65,8 +65,8 @@ h2{
 	line-height: 22px;
 }
 
-li a{
-	cursor: url('assets/img/cursor-click.png'), pointer;
+li a:hover {
+	cursor: url('assets/img/cursor-click.cur'), pointer;
 }
 
 li p{
