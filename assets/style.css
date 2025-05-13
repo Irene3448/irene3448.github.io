@@ -65,7 +65,7 @@ h2{
 }
 
 a:hover {
-	cursor: url('assets/img/cursor-click.png'), auto;
+	cursor: url('img/cursor-click.png'), auto;
 }
 
 li p{
